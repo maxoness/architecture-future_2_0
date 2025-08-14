@@ -1,0 +1,87 @@
+@startuml
+title Future 2.0 System Container Diagram
+
+top to bottom direction
+
+!includeurl C4_templates/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(manager, "Manager", "Руководитель или HR сотрудник, работающий с отчетами")
+Person(business_analyst, "Business Analyst", "Сотрудник, работающий с аналитическими данными и отчетами")
+Person_Ext(fintech_user, "Fintech user", "Пациент-клиент, использующий финансовые услуги банка")
+Person_Ext(clinic_user, "Clinic user", "Оператор и др. мед персонал клиники, работающий с мед. данными")
+
+System(Group_systems, "Системы группы компаний")
+
+
+Container_Boundary(Group_systems, "Системы группы компаний") {
+  System(Future_system, "Future 2.0 System", "Система управления медицинскими и аналитическими данными")
+  System_Ext(fintech_systems, "Fintech Services:\n Финтех-сервисы в виде отдельной компании с банковской лицензией", "Golang, Java")
+
+  Container_Boundary(Future_system, "Future 2.0 System") {
+    System(internalservices, "Internal Services", "Внутренние сервисы")
+
+    Container(sso, "Сервис авторизации", "Keycloak / Azure AD", "Реализует SSO и управление доступом")
+
+    Container(portal, "Портал самообслуживания", "React, TypeScript", "Предоставляет интерфейс для работы с аналитическими данными и создания отчетов")
+
+    ContainerQueue(queue, "Интеграционная шина", "Apache kafka", "Предоставляет сервис асинхронной передачи данных")
+
+    Container(bi, "BI", "Power BI", "Платформа бизнес-аналитики для построения и визуализации отчетов")
+    Container(datalakehouse, "Data LakeHouse", "Dremio, Nessie, minIO", "Аналитическое хранилище с каталогом данных")
+    Container(etl_systems, "Системы ETL/ELT слоя", "Apache NiFi, AirFlow, Kafka Connect", "Загрузка, обработка и очистка данных")
+    Container(datamarketplace, "Data Marketplace", "Datahub", "Платформа доменно-организованного каталога данных")
+
+    Container_Boundary(LegacySystems, "Legacy системы") {
+      Container(opertator_ui, "UI оператора клиники", "PowerBuilder, .Net", "Предоставляет интерфейс для прямой работы операторов в клиниках с медицинскими данными: карты, истории болезни, анализы")
+      Container(legacy_dwh, "Legacy DWH", "Microsoft SQL Server", "Историческое хранилище данных")
+    }
+
+  }
+  System_Ext(clinic_systems, "Clinic Systems", "Внешнее вендорское ПО")
+  System_Ext(ai_systems, "AI services:\n ИИ-сервисы для работы с медицинскими данными в виде отдельной компании", "Python")
+  
+}
+
+''''''' внешнее
+Rel(fintech_user, fintech_systems, "Проводит платежи")
+Rel(clinic_user, clinic_systems, "Работает в клинике")
+
+''''''' legacy
+Rel(clinic_user, opertator_ui, "Работает с медицинскими данными и снимками \n [При необходимости]")
+Rel(opertator_ui, legacy_dwh, "Читает/записывает медицинские данные и снимки")
+
+Rel(manager, internalservices, "Работает в узкоспециализированном ПО")
+Rel(internalservices, datalakehouse, "Чтение финансовых и операционных данных")
+
+''''''' аналитические данные
+Rel(manager, portal, "Работает с отчетами и аналитическими данными")
+Rel(business_analyst, portal, "Работает с отчетами и аналитическими данными")
+Rel(business_analyst, bi, "Работает с аналитическими данными и отчетами (настройка)")
+Rel(business_analyst, datamarketplace, "Работает с каталогом данных")
+Rel(datamarketplace, queue, "Читает изменения метаданных")
+
+Rel(portal, bi, "Строит отчёты через")
+Rel(portal, datamarketplace, "Читает каталог данных из")
+Rel(bi, datalakehouse, "Читает данные")
+
+Rel(etl_systems, datalakehouse, "Загружает и обрабатывает данные")
+Rel(etl_systems, legacy_dwh, "Читает и обрабатывает исторические данные")
+Rel(etl_systems, queue, "Читает и обрабатывает данные из систем")
+Rel(ai_systems, datalakehouse, "Читает данные")
+Rel(fintech_systems, queue, "Выгружает данные")
+Rel(clinic_systems, queue, "Выгружает данные")
+Rel(internalservices, queue, "Выгружает данные")
+
+
+'''''' авторизация
+Rel(portal, sso, "Аутентифицирует и авторизует пользователей")
+Rel(bi, sso, "Аутентифицирует и авторизует пользователей")
+Rel(internalservices, sso, "Аутентифицирует и авторизует пользователей")
+Rel(datalakehouse, sso, "Аутентифицирует и авторизует пользователей")
+Rel(etl_systems, sso, "Аутентифицирует и авторизует пользователей")
+Rel(datamarketplace, sso, "Аутентифицирует и авторизует пользователей")
+
+
+@enduml

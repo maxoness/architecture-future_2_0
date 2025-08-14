@@ -1,0 +1,103 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Страница — 1" id="gxNWP6m0J2SjA6oMT6wi">
+    <mxGraphModel dx="4402" dy="1210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-29" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-2097" y="860" width="2310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-1" value="Q1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-2100" y="30" width="540" height="74.4" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-2" value="Q2" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-1560" y="30" width="600" height="74.4" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-3" value="Q3" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-960" y="30" width="580" height="74.4" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-4" value="Q4" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;fontStyle=1;align=center;rounded=0;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-384" y="30" width="600" height="74.4" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-8" value="Архитектурная команда&amp;nbsp;&lt;div&gt;(2)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-2300" y="150" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-17" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-2100" y="150" width="2310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-18" value="Этап 1. Проектирование и планирование" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=5;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-2090" y="175" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-19" value="Инфраструктурная команда&amp;nbsp;&lt;div&gt;(1-2)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-2300" y="420" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-20" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-2100" y="420" width="2310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-21" value="Команда данных&amp;nbsp;&lt;div&gt;(3-6)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-2300" y="570" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-22" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-2100" y="570" width="2310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-23" value="Команда безопасности&amp;nbsp;&lt;div&gt;(1-2)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-2300" y="720" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-24" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-2100" y="720" width="2310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-25" value="Этап&amp;nbsp;2. Реализация портала самообслуживания" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=5;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1700" y="440" width="890" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-28" value="Команда веб-разаботки&lt;div&gt;(2)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-2300" y="860" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-30" value="&lt;div&gt;Команды продуктовых доменов:&lt;/div&gt;&lt;div&gt;финтех, AI, внутренние сервисы&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-2300" y="280" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-31" value="" style="shape=rect;fillColor=#fff2cc;strokeColor=none;fontSize=24;html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=5;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-2100" y="280" width="2310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-26" value="Этап&amp;nbsp;3. Интеграция с продуктовыми доменами" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=5;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="300" width="670" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-32" value="&lt;div&gt;&lt;div&gt;&lt;b&gt;Результаты: &quot;Промежуточное состояние&quot;:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- сформировано архитектурное решение по трансформации&lt;/div&gt;&lt;div&gt;- уточнены границы доменов и связи между ними&lt;/div&gt;&lt;div&gt;- спроектирована новая архитектура данных и безопасност&lt;/div&gt;&lt;div&gt;- запланированы конкретные проекты в доменах по развитию &quot;витрины данных&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Ответственные команды:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- архитектурная команда (архитектор, системный аналитик)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Ресурсы:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- сотрудники архитектурной команды (2)&lt;/div&gt;&lt;div&gt;- представители доменов: пользователи системы из различных подразделений компании (5)&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;Обоснование:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;ключевой этап для выявления реальных потребностей бизнеса, которые должны быть учтены в проекте. Необходим для максимизации эффективности предполагаемых изменений в компании с учётом всех важных аспектов (удобство работы, безопасность, регуляторные требования, производительность)&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacing=5;verticalAlign=top;fontSize=14;points=[[0,0,0,0,0],[0,0,0,470,0],[0,0,0,485,15],[0,0,0,500,30],[0,0,0,500,205],[0,0.5,0,0,0],[0,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[1,1,0,0,0]];" parent="1" vertex="1">
+          <mxGeometry x="-2140" y="1060" width="500" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" parent="1" source="LDpcxdiA7UQoVANZkf8P-18" target="LDpcxdiA7UQoVANZkf8P-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-27" value="Этап&amp;nbsp;4. Обучение и сопровождение" style="shape=rect;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=18;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=5;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="300" width="320" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-38" value="&lt;div&gt;&lt;b&gt;Результаты:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;- развёрнута инфраструктура под Data Lakehouse&lt;/div&gt;&lt;div&gt;- развёрнута инфраструктура, включая Kubernetes, под сервисы портала самообслуживания&lt;/div&gt;&lt;div&gt;- организована миграция аналитических данных из DWH в Data Lakehouse.&lt;/div&gt;&lt;div&gt;- реализован портал самообслуживания для аналитических отчетов&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Ответственные команды:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- архитектурная команда (архитектор, системный аналитик)&lt;/div&gt;&lt;div&gt;- инфраструктурная команда (devops)&lt;/div&gt;&lt;div&gt;- команда данных (инженеры данных)&lt;/div&gt;&lt;div&gt;- команда безопасности (специалисты по безопасности)&lt;/div&gt;&lt;div&gt;- команда веб-разработки (frontend разработчики)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Ресурсы:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- сотрудники архитектурной команды (2)&lt;/div&gt;&lt;div&gt;- сотрудники инфраструктурной команды (2)&lt;/div&gt;&lt;div&gt;- сотрудники команды данных (3)&lt;/div&gt;&lt;div&gt;- сотрудники команды безопасности (2)&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;сотрудники команды веб-разработки (2)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- сервера для Apache NiFi/Airflow, PostgreSQL,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Dremio,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Nessie,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MinIO&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, Keycloak, Azure AD.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- Лицензии для Dremio (Enterprise), MinIO (Enterprise)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Этап призван решить первоочередные проблемы компании, такие как отсутствие возможности конструирования кастомных отчетов сотрудниками, привязанность к единственному устаревшему хранилищу данных, рисики безопасности, а также обеспечить удобство интеграции с внешними системами.&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacing=5;verticalAlign=top;fontSize=14;points=[[0,0,0,0,0],[0,0,0,470,0],[0,0,0,485,15],[0,0,0,500,30],[0,0,0,500,205],[0,0.5,0,0,0],[0,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[1,1,0,0,0]];" parent="1" vertex="1">
+          <mxGeometry x="-1505" y="1060" width="500" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" parent="1" source="LDpcxdiA7UQoVANZkf8P-25" target="LDpcxdiA7UQoVANZkf8P-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-970" y="1230" as="sourcePoint" />
+            <mxPoint x="-970" y="2045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-40" value="&lt;div&gt;&lt;b&gt;Результаты:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- развёрнута инфраструктура под DataHub&lt;/div&gt;&lt;div&gt;- организована интеграция DataHub с Data Lakehouse&lt;/div&gt;&lt;div&gt;- реализованы витрины данных для домана AI&lt;/div&gt;&lt;div&gt;- реализованы витрины данных для домена Финансовых сервисов&lt;/div&gt;&lt;div&gt;- реализованы витрины данных для домена Клиентских данных&lt;/div&gt;&lt;div&gt;- реализованы витрины данных для домена Внутренних сервисов управления&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Ответственные команды:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- архитектурная команда (архитектор, системный аналитик)&lt;/div&gt;&lt;div&gt;- инфраструктурная команда (специалисты по инфраструктуре)&lt;/div&gt;&lt;div&gt;- команда данных (инженеры данных, в т.ч. со стороны продуктовых доменов)&lt;/div&gt;&lt;div&gt;- команда безопасности (специалисты по безопасности)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Ресурсы:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- сотрудники архитектурной команды (2)&amp;nbsp;&lt;/div&gt;&lt;div&gt;- сотрудники инфраструктурной команды (2)&amp;nbsp;&lt;/div&gt;&lt;div&gt;- сотрудники команды данных (6)&lt;/div&gt;&lt;div&gt;- сотрудники команды безопасности (1)&lt;/div&gt;&lt;div&gt;- сервера для DataHub, Apache Kafka, PostgreSQL, Elasticsearch&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Этап необходим для реализации задачи от бизнеса по реализации портала самообслуживания с возможностью удобного обмена данными между всеми доменами компании. Также выполнение данного этапа упрощает интеграцию с новыми системами при дальнейшем развитии бизнеса&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacing=5;verticalAlign=top;fontSize=14;points=[[0,0,0,0,0],[0,0,0,470,0],[0,0,0,485,15],[0,0,0,500,30],[0,0,0,500,205],[0,0.5,0,0,0],[0,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[1,1,0,0,0]];" parent="1" vertex="1">
+          <mxGeometry x="-715" y="1060" width="500" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" parent="1" source="LDpcxdiA7UQoVANZkf8P-26" target="LDpcxdiA7UQoVANZkf8P-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-620" y="1130" as="sourcePoint" />
+            <mxPoint x="-620" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-42" value="&lt;div&gt;&lt;b&gt;Результаты:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- система донастроена в соответствии с замечаниями после бета тестирования и пилотного запуска&lt;/div&gt;&lt;div&gt;- разработана подробная документация по изменениям и работе с новыми сервисами, а также&amp;nbsp;&lt;/div&gt;&lt;div&gt;- сотрудники компании из различных доменов успешно работают с витринами данных&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Ответственные команды:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- архитектурная команда (архитектор, системный аналитик)&lt;/div&gt;&lt;div&gt;- инфраструктурная команда (специалисты по инфраструктуре)&lt;/div&gt;&lt;div&gt;- команда данных&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(инженеры данных, в т.ч. со стороны продуктовых доменов)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- команда безопасности (специалисты по безопасности)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Ресурсы:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- сотрудники архитектурной команды (2)&lt;/div&gt;&lt;div&gt;- сотрудники инфраструктурной команды (1)&amp;nbsp;&lt;/div&gt;&lt;div&gt;- сотрудники команды данных (6)&lt;/div&gt;&lt;div&gt;- сотрудники команды безопасности (1)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Обоснование:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Этап необходим для полноценной эксплуатации системы независимо от команды, участвовавшей в её внедрении.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;пользователей.&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacing=5;verticalAlign=top;fontSize=14;points=[[0,0,0,0,0],[0,0,0,470,0],[0,0,0,485,15],[0,0,0,500,30],[0,0,0,500,205],[0,0.5,0,0,0],[0,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[1,1,0,0,0]];" parent="1" vertex="1">
+          <mxGeometry x="-135" y="1060" width="350" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="LDpcxdiA7UQoVANZkf8P-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" parent="1" source="LDpcxdiA7UQoVANZkf8P-27" target="LDpcxdiA7UQoVANZkf8P-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="1120" as="sourcePoint" />
+            <mxPoint x="320" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
